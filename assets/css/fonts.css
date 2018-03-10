@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Raleway-Light";
+    src: url(../fonts/Raleway/Raleway-Light.ttf);
+}
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url(../fonts/Raleway/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: "Asap";
+    src: url(../fonts/Asap/Asap-Bold.ttf);
+}
+@font-face {
+    font-family: "Asap-Bold";
+    src: url(../fonts/Asap/Asap-Bold.ttf);
+}
+@font-face {
+    font-family: "Asap-Italic";
+    src: url(../fonts/Asap/Asap-Italic.ttf);
+}
+@font-face {
+    font-family: "Asap-Medium";
+    src: url(../fonts/Asap/Asap-Medium.ttf);
+}@font-face {
+    font-family: "Asap-MediumItalic";
+    src: url(../fonts/Asap/Asap-MediumItalic.ttf);
+}
+@font-face {
+    font-family: "Asap-Regular";
+    src: url(../fonts/Asap/Asap-Regular.ttf);
+}
+@font-face {
+    font-family: "Asap-SemiBold";
+    src: url(../fonts/Asap/Asap-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Asap-SemiBoldItalic";
+    src: url(../fonts/Asap/Asap-SemiBoldItalic.ttf);
+}
+@font-face {
+    font-family: "Patua_One";
+    src: url(../fonts/Patua_One/PatuaOne-Regular.ttf);
+}
