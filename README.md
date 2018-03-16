@@ -13,3 +13,12 @@ v1.1
 - revised "MY WORKS" section, changed pop-up text, add buttons "See LIVE!", "See code" and its decoration + pure css animation
 - revised "ABOUT ME" section, remove canvas circal bar and percent counter - little informative thing. Replaced with a text slider with     info sections, in pure CSS animation
 - I will think what to do next
+
+v1.2
+- add text
+- redesigned "ABOUT ME" section, RWD
+- simplified the quoterotator, add pictures
+- fixed smooth-scroll
+
+v1.3
+- optimazation and production
