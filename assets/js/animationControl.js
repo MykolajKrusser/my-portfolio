@@ -67,20 +67,7 @@ function scrollAnimationControlmyWorks2row() {
         animation.lastElementChild.previousElementSibling.previousElementSibling.classList.add("zoomIn");
     }
 }
-/*
-myAdvantages animation
- */
-window.addEventListener("scroll", myAdvantagesScrollAnimationControl);
-// Add the animated class  to the animated object when you reach its scroll position.
-function myAdvantagesScrollAnimationControl() {
-    // Get the animated object from html
-    var animation = document.getElementById("myAdvantagesAnimation");
-    // Get the offset position of the animated object
-    var position = animation.offsetTop + 3800;
-    if (window.pageYOffset >= position) {
-        animation.classList.add("fadeInUp", "myAdvantagesAnimationViz");
-    }
-}
+
 /*
  Contact animation
  */
@@ -90,7 +77,7 @@ function  myContactAnimationScrollAnimationControl() {
     // Get the animated object from html
     var animation = document.getElementById("myContactAnimation");
     // Get the offset position of the animated object
-    var position = animation.offsetTop + 6000;
+    var position = animation.offsetTop + 3600;
     if (window.pageYOffset >= position) {
         animation.classList.add("fadeInUp");
     }
@@ -102,7 +89,7 @@ function  formScrollAnimationControl() {
     // Get the animated object from html
     var animation = document.getElementById("contactForm");
     // Get the offset position of the animated object
-    var position = animation.offsetTop + 3200;
+    var position = animation.offsetTop + 3800;
     if (window.pageYOffset >= position) {
         animation.classList.add("fadeInUp", "myAdvantagesAnimationViz");
     }

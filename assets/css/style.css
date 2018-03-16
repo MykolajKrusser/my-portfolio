@@ -333,6 +333,13 @@ MyWorks
     -webkit-transition: outline-offset, filter, outline, 1s ease;
     transition: outline-offset, filter, outline, 1s ease;
 }
+.myWorksBlock:hover {
+    outline: 1px solid white;
+    outline-offset: -18px;
+    filter: grayscale(0%);
+    -webkit-transition: outline-offset, filter, outline, 1s ease;
+    transition: outline-offset, filter, outline, 1s ease;
+}
 .btn {
     margin: 0 auto;
     flex-direction: row;
@@ -406,7 +413,6 @@ MyWorks hover animation inside blocks
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-
 }
 .myWorksText{
     width: 95%;
@@ -448,13 +454,6 @@ MyWorks hover animation inside blocks
     -webkit-transform: translate3d(0,20px,0);
     transform: translate3d(0,20px,0);
 }
-.myWorksBlock:hover {
-    outline: 1px solid white;
-    outline-offset: -25px;
-    filter: grayscale(0%);
-    -webkit-transition: outline-offset, filter, outline, 1s ease;
-    transition: outline-offset, filter, outline, 1s ease;
-}
 /*
 MyWorks END
  */
@@ -476,7 +475,7 @@ MySkills Start
  */
 #aboutMe{
     background: #e2e2e2;
-    height: 70vh;
+    height: 95vh;
 }
 .slider {
     height: 100%;
@@ -589,6 +588,33 @@ MySkills Start
     font-size: 18px;
     line-height: 30px;
 }
+@media screen and (max-width: 850px) {
+    #aboutMe{
+        background: #e2e2e2;
+        height: 130vh;
+    }
+    .slider__txt {
+        line-height: 20px;
+    }
+}
+@media screen and (width: 768px) {
+    #aboutMe{
+        background: #e2e2e2;
+        height: 60vh;
+    }
+    .slider__txt {
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #aboutMe{
+        background: #e2e2e2;
+        height: 95vh;
+    }
+    .slider__txt {
+        line-height: 20px;
+    }
+}
 
 @-webkit-keyframes check {
     50% {
@@ -618,26 +644,6 @@ MySkills Start
 /*
 MySkills End
  */
-/*
-myAdvantages start
- */
-#myAdvantages{
-    min-height: 40vh;
-    background: #FFFFFF;;
-}
-#myAdvantages .content-wr{
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-    align-items: center;
-}
-#myAdvantagesAnimation {
-    opacity: 0;
-    transition: opacity 1s ease;
-}
-.myAdvantagesAnimationViz{
-    opacity: 1;
-}
 /*-----------------------*/
 /***** Quote Rotator *****/
 /*-----------------------*/
@@ -654,7 +660,7 @@ myAdvantages start
 
 .cbp-qtrotator .cbp-qtcontent {
     position: absolute;
-    min-height: 200px;
+    height: 200px;
     border-top: 1px solid #f4f4f4;
     border-bottom: 1px solid #f4f4f4;
     padding: 2em 0;
@@ -703,23 +709,16 @@ myAdvantages start
 }
 
 .cbp-qtrotator blockquote p {
+    font-family: Patua_One, sans-serif;
     font-size: 2em;
     color: #888;
     font-weight: 300;
     margin: 0.4em 0 1em;
 }
-
-.cbp-qtrotator blockquote footer {
-    font-size: 1.2em;
-}
-
-.cbp-qtrotator blockquote footer:before {
-    content: '― ';
-}
-
 .cbp-qtrotator .cbp-qtcontent img {
     float: right;
     margin-left: 3em;
+    filter: grayscale(80%);
 }
 
 /* Example for media query */
@@ -758,7 +757,7 @@ Contact me
 }
 @media screen and (max-width: 1024px) {
     #contactForm{
-        width: 70%;
+        width: 75%;
     }
 }
 .emailAndName{

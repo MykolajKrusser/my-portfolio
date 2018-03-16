@@ -58,13 +58,15 @@ $( function() {
         /* ---------------------------------------------- /*
          * Smooth scroll / Scroll To Top
          /* ---------------------------------------------- */
-        $('a[href]').bind("click", function(e){
 
-            var anchor = $(this);
-            $('html, body').stop().animate({
-                scrollTop: $(anchor.attr('href')).offset().top
-            }, 1000);
-            e.preventDefault();
+        $('a[href="#home"], a[href="#services"], a[href="#myWorks"], a[href="#aboutMe"], a[href="#myContact"]').click(function() {
+            $("html, body").animate({
+                scrollTop: $($(this).attr("href")).offset().top + "px"
+            }, {
+                duration: 1500,
+                easing: "swing"
+            });
+            return false;
         });
 
         $(window).scroll(function() {
