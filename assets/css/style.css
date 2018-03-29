@@ -187,16 +187,22 @@ Navigation
     }
     #nav .content-wr .buttons a{
         margin: 11px 3px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .name{
         display: none;
+    }
+    #nav .content-wr {
+        justify-content: center;
     }
 }
 @media screen and (max-width: 390px) {
     #nav .content-wr .buttons a{
         margin: 5px 5px;
-        font-size: 11px;
+        font-size: 12px;
+    }
+    #nav .content-wr {
+        justify-content: center;
     }
 
 }
@@ -458,24 +464,11 @@ MyWorks hover animation inside blocks
 MyWorks END
  */
 /*
-MySkills Start
- */
-#mySkills{
-    min-height: 50vh;
-    background: #e2e2e2;
-}
-#mySkills .content-wr{
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-    align-items: center;
-}
-/*
 *About Me Slider TEXT created by https://codepen.io/tari/
  */
 #aboutMe{
     background: #e2e2e2;
-    height: 95vh;
+    height: 70vh;
 }
 .slider {
     height: 100%;
@@ -569,15 +562,12 @@ MySkills Start
     -webkit-box-pack: center;
     -ms-flex-pack: center;
 }
-.slider__image {
-    font-size: 2.7rem;
-}
 .slider__caption {
     font-family: Raleway-Light, serif;
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 800;
-    margin: 5rem 0 1rem;
+    margin: 1rem 0 1rem;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 .slider__txt {
@@ -591,19 +581,16 @@ MySkills Start
 @media screen and (max-width: 850px) {
     #aboutMe{
         background: #e2e2e2;
-        height: 130vh;
+        height: 115vh;
     }
     .slider__txt {
-        line-height: 20px;
+        line-height: 22px;
     }
 }
 @media screen and (width: 768px) {
     #aboutMe{
         background: #e2e2e2;
         height: 60vh;
-    }
-    .slider__txt {
-        line-height: 30px;
     }
 }
 @media screen and (max-width: 500px) {
@@ -612,7 +599,7 @@ MySkills Start
         height: 95vh;
     }
     .slider__txt {
-        line-height: 20px;
+        line-height: 22px;
     }
 }
 
@@ -870,7 +857,7 @@ Footer
         width: 70%;
     }
     #footer{
-        height: 27vh;
+        height: 32vh;
     }
 }
 /*
